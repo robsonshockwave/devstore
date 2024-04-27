@@ -6,7 +6,7 @@ export default function StoreLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
+    <div className="bg-red-500">
       <Header />
       {children}
     </div>
