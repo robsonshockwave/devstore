@@ -12,6 +12,7 @@ const config: Config = {
     },
     gridTemplateColumns: {
       app: 'min-content max-content',
+      colsNine: 'grid-template-columns: repeat(9, minmax(0, 1fr))',
     },
   },
   plugins: [],
