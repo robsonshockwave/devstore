@@ -7,12 +7,14 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    fontFamily: {
-      sans: 'var(--font-inter)',
-    },
-    gridTemplateColumns: {
-      app: 'min-content max-content',
-      colsNine: 'grid-template-columns: repeat(9, minmax(0, 1fr))',
+    extend: {
+      fontFamily: {
+        sans: 'var(--font-inter)',
+      },
+      gridTemplateColumns: {
+        app: 'min-content max-content',
+        colsNine: 'grid-template-columns: repeat(9, minmax(0, 1fr))',
+      },
     },
   },
   plugins: [],
